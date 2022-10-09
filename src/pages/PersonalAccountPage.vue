@@ -5,18 +5,18 @@
                     <h1>Personal cabinet</h1>
                     <div class="card">
                         <div class="card-body">
-                                <div class="mb-3">
-                                    Name<p> Abdullokh </p>
-                                </div>
-                                <div class="mb-3">
-                                    FamilyName<p> Khamzaev</p>
-                                </div>
-                                <div class="mb-3">
-                                    Email<p> abdulloh3525dev@gmail.com </p>
-                                </div>
-                                <div class="mb-3">
-                                    Phone<p> +998970003525 </p>
-                                </div>
+                            <div class="mb-3">
+                                Name<p> Abdullokh </p>
+                            </div>
+                            <div class="mb-3">
+                                FamilyName<p> Khamzaev</p>
+                            </div>
+                            <div class="mb-3">
+                                Email<p> abdulloh3525dev@gmail.com </p>
+                            </div>
+                            <div class="mb-3">
+                                Phone<p> +998970003525 </p>
+                            </div>
                         </div>
                     </div>
                 </div>

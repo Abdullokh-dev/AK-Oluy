@@ -55,8 +55,12 @@
                     <div
                         class="row ms-3 me-3">
                         <div class="col-12 mt-4">
-                            <input type="text" class="form-control address" placeholder="add address..."
-                                   aria-label="Username" aria-describedby="addon-wrapping"
+                            <input
+                                type="text"
+                                class="form-control address"
+                                placeholder="add address..."
+                                aria-label="Username"
+                                aria-describedby="addon-wrapping"
                             >
                         </div>
                     </div>
@@ -85,9 +89,7 @@
                         <div class="col-12 col-sm-6 mt-4 mb-5 d-flex justify-content-end">
                             <button type="submit" class="btn-search">Search</button>
                         </div>
-
                     </div>
-
                 </div>
             </div>
         </form>

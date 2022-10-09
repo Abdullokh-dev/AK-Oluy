@@ -29,8 +29,6 @@
                 </div>
             </div>
 
-
-
             <div class="hr"></div>
 
             <div class="parameters">
@@ -284,9 +282,7 @@
                 <button type="submit" @click="Alert =false" class="btn btn-primary">Save</button>
             </div>
         </form>
-        <br/>
-        <br/>
-        <br/>
+        <br/><br/><br/>
     </div>
 </template>
 

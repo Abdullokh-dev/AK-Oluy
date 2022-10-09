@@ -6,17 +6,14 @@
                     <p class="sale">
                         Sell house and Buy
                     </p>
-
                     <p class="sale_description">
                         Sell your home confidently by posting an ad online, and buy a new home for yourself.
                         Posting an ad is absolutely free!
                     </p>
-
                     <router-link to="/add-advertisement-page" class="btn">
                         Add an ad
                     </router-link>
                 </div>
-
                 <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6 col-xl-6 mt-4">
                     <img src="/img/logos/sale.png" class="img-fluid" alt="">
                 </div>
@@ -28,9 +25,7 @@
         <div class="container">
 
             <div class="row justify-content-center">
-
                 <p class="heading mt-5">Apartments for sale</p>
-
                 <div v-for="house of 8" v-bind:key="house.index"
                     class="col-xs-12 col-sm-12 col-md-6 col-lg-3 mt-4 ">
                     <router-link :to="'/room-page/' + house.index">
@@ -40,7 +35,6 @@
                         {{ house }}0 000 $
                     </div>
                 </div>
-
             </div>
 
             <div class="row">
@@ -49,7 +43,6 @@
 
             <div class="row">
                 <p class="heading mt-5">Yard lots for sale</p>
-
                 <div v-for="yard of 8" v-bind:key="yard.index"
                     class="col-xs-12 col-sm-12 col-md-6 col-lg-3  mt-4 ">
                     <router-link :to="'/room-page/' + yard.index"> <img src="https://www.realestate.com.au/blog/images/1280x720-fit,progressive/2022/02/09161709/capi_2a876666565dcc302cbd3ed1fa4300ec_5fecf6241cc3e466a85593d7012cd067.jpeg" class="img img-fluid" alt="..."> </router-link>
@@ -64,7 +57,6 @@
 
             <div class="row">
                 <p class="heading mt-5">Apartments and patios for rent</p>
-
                 <div v-for="house of 8" v-bind:key="house.index"
                     class="col-xs-12 col-sm-12 col-md-6 col-lg-3 mt-4 ">
                     <router-link :to="'/room-page/' + house.index">
@@ -82,7 +74,6 @@
 
             <div class="row">
                 <p class="heading mt-5">New apartments for sale</p>
-
                 <div v-for="house of 8" v-bind:key="house.index"
                     class="col-xs-12 col-sm-12 col-md-6 col-lg-3  mt-4 ">
                     <router-link :to="'/room-page/' + house.index">

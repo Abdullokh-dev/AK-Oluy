@@ -200,6 +200,7 @@ export default {
     padding-right: 0;
     margin-right: 0;
 }
+
 .domen {
     position: absolute;
     width: 226px;
